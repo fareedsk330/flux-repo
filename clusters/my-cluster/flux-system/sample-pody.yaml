@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dummy-poddy
+spec:
+ containers:
+   - name: dummy-cont
+     image: nginx
